@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/react-37signals/static/css/main.2532e032.css",
+    "main.js": "/react-37signals/static/js/main.9c56a67c.js",
+    "static/js/787.cc5fc8a6.chunk.js": "/react-37signals/static/js/787.cc5fc8a6.chunk.js",
+    "static/media/img-customers.png": "/react-37signals/static/media/img-customers.710d98a1a57712397e50.png",
+    "static/media/img-rework.png": "/react-37signals/static/media/img-rework.a462fe6a38f2812206ce.png",
+    "static/media/img-crumple.png": "/react-37signals/static/media/img-crumple.4e2611c9e2590cf8972d.png",
+    "static/media/logos-companies-bw.png": "/react-37signals/static/media/logos-companies-bw.0d94bed5395a1363f245.png",
+    "index.html": "/react-37signals/index.html",
+    "main.2532e032.css.map": "/react-37signals/static/css/main.2532e032.css.map",
+    "main.9c56a67c.js.map": "/react-37signals/static/js/main.9c56a67c.js.map",
+    "787.cc5fc8a6.chunk.js.map": "/react-37signals/static/js/787.cc5fc8a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2532e032.css",
+    "static/js/main.9c56a67c.js"
+  ]
+}
