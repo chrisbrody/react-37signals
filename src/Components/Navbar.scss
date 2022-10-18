@@ -1,0 +1,38 @@
+nav {
+	font-family: sans-serif;
+	height: 48px;
+	min-width: 100%;
+    
+    ul {
+        float: right;
+        margin: 12px 18px;
+        padding: 10px 30px;
+
+        li {
+            color: #369369;
+            display: inline-block;
+            font-size: 12px;
+            margin: 0 5px;
+            padding: 5px;
+
+            a {
+
+                &:hover {
+                    color: #18AFE0;
+                }
+                &.signin {
+                    color: #18AFE0;
+                    &:hover {
+                        color: #369369;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 675px) {
+	nav ul {
+		padding: 0;
+	}	
+} /* end max-width 675px*/

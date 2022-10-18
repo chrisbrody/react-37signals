@@ -1,0 +1,145 @@
+header {
+    clear: both;
+	margin-bottom: 40px; 
+	text-align: center;
+
+    h1 {
+        color: #232323;
+        font-size: 48px;
+        line-height: 52px;
+        letter-spacing: -1px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    h2 {
+        font-weight: 500;
+        font-size: 20px;	
+        line-height: 30px;
+        margin: 10px 0;
+        color: #222222;
+    }
+
+    #products {
+        height: 277px;
+        
+        div {
+            border: 1px solid #E8E8E8;
+            border-radius: 5px;
+            font-family: 'Roboto', sans-serif;
+            float: left;
+            margin: 25px 0 0 58px;
+            padding: 20px 30px;	
+            width: 17%;    
+        }
+
+        h3 {
+            font-size: 21px;
+            color: #336699;
+            font-weight: bold;
+            line-height: 32px;
+            margin-bottom: 10px;
+        }
+
+        h4 {
+            margin: 10px 0;
+            font-size: 14px;
+            color: #C00C00;
+        }
+
+        p {
+            color: #222222;
+            font-size: 14px;
+            line-height: 21px;
+            margin: 5px 0;
+        }
+
+        span {
+            text-decoration: underline;
+        }
+
+        sup {
+        	color: #999999;
+	        font-size: 11px;
+        }
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    header h1 {
+		font-size: 42px;
+		line-height: 42px;
+		margin: 0 5%;
+	}
+
+    #products div:first-child {
+    	margin-left: 10%; 
+	}
+} /* end max-width 1200px*/
+
+@media screen and (max-width: 1050px) {
+    header {
+        #products {
+            div:first-child {
+                margin-left: 7%; 
+            }
+    
+            p {
+                font-size: 12px;
+            }
+        }
+    }
+} /* end max-width 1050px*/
+
+@media screen and (max-width: 900px) {
+	header {
+		margin-bottom: 0;
+
+        h1 {
+            font-size: 36px;
+            line-height: 36px;
+        }
+
+        #products {
+            div {
+                box-sizing: border-box;
+                display: inline-block;
+                float: none;   
+                margin: 2% 1%;
+                padding: 15px 20px;
+                width: 27%;
+
+                &:first-child {
+                    margin-left: 0; 
+                }
+            }
+        }
+	}
+} /* end max-width 900px*/
+
+@media screen and (max-width: 675px) {
+	header {
+        #products {
+            height: auto;
+            div {
+                display: block;
+               margin: 10px auto !important;
+               width: 50%;
+            }
+        }
+    }
+} /* end max-width 675px*/
+
+@media screen and (max-width: 600px) {
+	header {
+        h1 {
+            font-size: 28px;
+		    line-height: 28px;
+        }
+
+        h2 {
+            font-size: 16px;
+            line-height: 25px;
+        }
+    }
+} /* end max-width 600px*/

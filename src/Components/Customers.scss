@@ -1,0 +1,92 @@
+#customers {
+	margin-bottom: 50px;
+	position: relative;
+    
+    h1 {
+        color: #232323;
+        font-size: 48px;
+        line-height: 52px;
+        letter-spacing: -1px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    & > p {
+        color: #656565;
+        font-size: 22px;
+        line-height: 30px;
+        margin-bottom: 20px;	
+    }
+
+    .meet {
+        left: -140px;
+        position: absolute;
+        top: 70px;
+
+        a {
+            // background: url('../img/img-customers.png');
+            background: url('../Assets/Images/img-customers.png');
+            display: block;
+            height: 104px;
+            text-indent: -1000px;
+            width: 143px;
+
+            &:hover {
+                background-position: 0 100%;
+            }
+        }
+
+        p {
+            color: #336699;
+            cursor: pointer;
+            font-size: 14px;
+            text-align: center;
+
+            &:hover {
+                color: #6699CC;
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .arrow-left {
+        height: 36px;
+        position: relative;
+        top: -35px;
+        width: 69px;
+    }
+    
+    .globe {
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1200px) { 
+    .meet, 
+	.arrow-left,
+    #customers > img {
+        display: none;
+    }
+
+    #customers h1 {
+        font-size: 32px;
+		line-height: 32px;
+        padding: 0 0 20px 0;
+    }
+} /* end max-width 1200px*/
+
+@media screen and (max-width: 1050px) {
+    #customers {
+        p {
+            line-height: 26px;
+        }
+    }
+} /* end max-width 1050px*/
+
+@media screen and (max-width: 600px) {
+	#customers {
+        h1 {
+            font-size: 24px;
+        }
+    }
+} /* end max-width 600px*/

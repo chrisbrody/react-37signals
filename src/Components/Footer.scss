@@ -1,0 +1,38 @@
+footer {
+	font-family: 'Lucida Grande', sans-serif;
+	line-height: 1.5em;
+	margin: 30px auto;
+	text-align: center;
+
+    h3 {
+        font-size: 14px;
+        color: #CC0000;
+    }
+
+    li {
+        font-size: 12px;
+        padding: 5px 0;
+
+        
+    }
+    
+    a {
+        text-decoration: none;
+        margin-left:5px;
+
+        &:hover {
+            color: #669C9C;
+        }
+    }
+
+    p {
+        font-size: 10px;
+        color: #999999;	
+        margin-top: 50px;
+    }
+}
+
+
+@media screen and (max-width: 1200px) { 
+    
+} /* end max-width 1200px*/

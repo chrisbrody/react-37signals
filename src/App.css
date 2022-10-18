@@ -1,0 +1,37 @@
+/** SITEWIDE CSS **/
+* {
+	margin:0;
+	padding:0;	
+}
+body {
+	font-family: 'Crimson Text', sans-serif;
+}
+
+a {
+	color: #336699;
+	text-decoration: none;
+}
+
+header,
+section {	
+	display: block;
+	margin: 30px auto;
+	width: 825px;
+}
+
+hr {
+	background: white url('./Assets/Images/img-hr.png') no-repeat 50%;
+	border: 0;
+	clear: both;
+	height: 12px;
+}
+
+@media screen and (max-width: 1200px) {
+	body {
+		overflow-x:hidden
+	}
+	header,
+	section {
+		width: 90%;
+	}
+} /* end max-width 1200px*/
